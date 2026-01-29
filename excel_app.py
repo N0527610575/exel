@@ -106,6 +106,7 @@ def main():
         # סטטיסטיקה מהירה
         st.metric("מספר שורות", edited_df.shape[0])
         st.metric("מספר עמודות", edited_df.shape[1])
+        st.info("נבנה על ידי נחמן חסון © 2026")
 
 if __name__ == "__main__":
     main()
